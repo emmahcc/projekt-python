@@ -22,7 +22,8 @@ alla  = []
 
 if lowercase == 'ja':
     alla += char_low
-if uppercase =='ja':
+
+if uppercase =='ja':
     alla += char_up
 if numbers == 'ja':
     alla += dig
@@ -34,4 +35,4 @@ for i in range(user_length):
     random.shuffle(alla)
     password.append(random.choice(alla))
     
-print(''.join(password))
+print('Ditt genererade lösenord är: ' +''.join(password))
