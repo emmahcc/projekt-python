@@ -3,17 +3,9 @@ from tkinter import *
 #root är start"sidan", själva fönstret
 root = Tk()
 root.title('Miniräknare')
-#Skapar en label widget
-#my_label1 = Label(root, text='Hello World!')
-#my_label2 = Label(root, text='Emma Emma Emma')
-#lägger in widget på skärmen
-#my_label1.grid(row=0, column=0)
-#my_label2.grid(row=1, column=0)
 
 e = Entry(root, width=35, borderwidth=5)
 e.grid(row=0, column=0, columnspan=4, padx=20, pady=10)
-
-
 
 def button_click(number):
     current = e.get()
